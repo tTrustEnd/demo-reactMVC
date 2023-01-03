@@ -1,0 +1,23 @@
+.TodoItem{
+    display: flex;
+    flex-direction: row;
+    justify-content:left ;
+   width: 100%;
+   border: 1px solid #bebebe;
+   align-items: center;
+   flex-grow: 1;
+}
+.TodoItem >p{
+    margin: 0;
+    padding-left: 10px;
+}
+
+.TodoItem-complete{
+    text-decoration: line-through;
+    opacity: .3;
+}
+.TodoItem .deletes{
+   display: flex;
+justify-content: end;
+flex-grow: 1;
+}   
